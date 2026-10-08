@@ -9,6 +9,7 @@ class P39_LoopPatterns {
         printRightHalfPyramid(rows);
         printReverseRightHalfPyramid(rows);
         printLeftHalfPyramid(rows);
+        input.close();
     }
 
     public static void printLeftHalfPyramid(int maxRows) {
@@ -24,7 +25,7 @@ class P39_LoopPatterns {
 
             // this loop prints stars
             int i = 0;
-            while (i <= (maxRows-rows)) {
+            while (i <= (maxRows - rows)) {
                 System.out.print("* ");
                 i++;
             }

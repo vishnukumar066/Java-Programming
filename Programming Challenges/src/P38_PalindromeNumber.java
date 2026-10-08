@@ -12,6 +12,7 @@ class P38_PalindromeNumber {
         } else {
             System.out.println("Your number is not a palindrome number");
         }
+        input.close();
     }
 
     public static boolean isPalindrome(int num) {
