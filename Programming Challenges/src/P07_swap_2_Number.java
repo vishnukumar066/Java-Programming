@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class P07_swap_2_Number {
-    static void main (String[] args) {
+    static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Welcome to Swapping Station.");
@@ -17,5 +17,6 @@ public class P07_swap_2_Number {
         System.out.println("Swapping Done...");
         System.out.println("Now, Value of A: " + a);
         System.out.println("Now, Value of B: " + b);
+        input.close();
     }
 }

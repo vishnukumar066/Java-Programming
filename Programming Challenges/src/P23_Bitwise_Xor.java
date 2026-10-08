@@ -11,5 +11,6 @@ public class P23_Bitwise_Xor {
 
         int result = first ^ second;
         System.out.println("Result is: " + result);
+        input.close();
     }
 }

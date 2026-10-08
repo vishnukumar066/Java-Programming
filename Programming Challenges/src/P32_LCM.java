@@ -10,6 +10,7 @@ public class P32_LCM {
         int second = input.nextInt();
         int lcm = lcm(first, second);
         System.out.println("LCM of the two numbers is: " + lcm);
+        input.close();
     }
 
     public static int lcm(int first, int second) {

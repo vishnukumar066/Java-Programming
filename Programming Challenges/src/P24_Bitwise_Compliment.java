@@ -9,5 +9,6 @@ public class P24_Bitwise_Compliment {
 
         int result = ~num;
         System.out.println("Your result is: " + result);
+        input.close();
     }
 }

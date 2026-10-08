@@ -8,12 +8,15 @@ class P36_Fibonacci_Series {
         int num = input.nextInt();
         System.out.println("Here is the Fibonacci Series");
         printFibonacci(num);
+        input.close();
     }
 
     public static void printFibonacci(int num) {
-        if (num < 0) return;
+        if (num < 0)
+            return;
         System.out.print("0 ");
-        if (num == 0) return;
+        if (num == 0)
+            return;
         System.out.print("1 ");
 
         int first = 0, second = 1;

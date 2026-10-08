@@ -12,5 +12,7 @@ public class P27_Odd_Even_Bitwise {
         } else {
             System.out.println("Your number is even");
         }
+
+        input.close();
     }
 }

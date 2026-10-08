@@ -13,5 +13,6 @@ public class P06_Sum_Calculator {
         int sum = firstNum + secondNum;
         System.out.println("Sum of your number is: " + sum);
 
+        input.close();
     }
 }

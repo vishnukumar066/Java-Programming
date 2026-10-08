@@ -12,5 +12,6 @@ public class P16_Odd_Even {
         } else {
             System.out.println("Your number is a odd number.");
         }
+        input.close();
     }
 }

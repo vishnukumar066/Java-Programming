@@ -12,5 +12,6 @@ public class P12_SimpleInterest {
         double area = (base * height) / 2;
 
         System.out.println("The area of your triangle is: " + area + "cms2");
+        input.close();
     }
 }

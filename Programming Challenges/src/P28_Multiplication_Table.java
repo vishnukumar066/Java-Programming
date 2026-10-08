@@ -7,6 +7,7 @@ public class P28_Multiplication_Table {
         System.out.print("Please enter your number: ");
         int num = scanner.nextInt();
         printMultiplicationTable(num);
+        scanner.close();
     }
 
     public static void printMultiplicationTable(int num) {

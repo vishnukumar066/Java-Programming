@@ -11,5 +11,7 @@ public class P05_Welcome_By_Name_Input {
         System.out.print(name + ", Also tell me your age: ");
         int age = input.nextInt();
         System.out.println(name + ", your age is " + age);
+
+        input.close();
     }
 }

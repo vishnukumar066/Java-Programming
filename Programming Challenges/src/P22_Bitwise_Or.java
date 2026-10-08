@@ -11,5 +11,6 @@ public class P22_Bitwise_Or {
 
         int result = first | second;
         System.out.println("Result is: " + result);
+        input.close();
     }
 }

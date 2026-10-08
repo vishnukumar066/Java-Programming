@@ -18,5 +18,6 @@ public class P17_Greatest_Of_Three {
         } else {
             System.out.println(third + " is the greatest number");
         }
+        input.close();
     }
 }

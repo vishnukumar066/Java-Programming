@@ -12,6 +12,7 @@ class P37_ArmstrongNumber {
         } else {
             System.out.println("Your number is not Armstrong");
         }
+        input.close();
     }
 
     public static boolean isArmstrong(int num) {

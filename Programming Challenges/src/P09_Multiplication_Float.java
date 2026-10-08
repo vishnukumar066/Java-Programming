@@ -10,5 +10,6 @@ public class P09_Multiplication_Float {
         double second = input.nextDouble();
 
         System.out.println("\n Result is: " + (first * second));
+        input.close();
     }
 }

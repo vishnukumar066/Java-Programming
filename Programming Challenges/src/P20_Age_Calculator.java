@@ -16,5 +16,6 @@ public class P20_Age_Calculator {
         } else {
             System.out.println("You are a child");
         }
+        input.close();
     }
 }

@@ -18,5 +18,6 @@ public class P19_Grading {
         } else {
             System.out.println("Sorry, You have failed the test and got a F");
         }
+        input.close();
     }
 }

@@ -8,6 +8,7 @@ public class P30_Factorial {
         int num = input.nextInt();
         long fact = factorial(num);
         System.out.println("Factorial is: " + fact);
+        input.close();
     }
 
     public static long factorial(int num) {

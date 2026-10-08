@@ -20,5 +20,6 @@ public class P08_Arithmetic_Operators {
         System.out.println("Multiplication is: " + mul);
         System.out.println("Division is: " + div);
         System.out.println("Modulus is: " + mod);
+        input.close();
     }
 }

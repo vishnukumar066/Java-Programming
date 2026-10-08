@@ -13,5 +13,6 @@ public class P13_CompoundInterest {
 
         double compInt = principle * Math.pow((1 + rate / 100), years);
         System.out.println("Your compound interest is Rs:" + compInt);
+        input.close();
     }
 }

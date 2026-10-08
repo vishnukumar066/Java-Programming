@@ -12,6 +12,7 @@ public class P34_Prime_Number {
         } else {
             System.out.println("Your number is not prime");
         }
+        input.close();
     }
 
     public static boolean isPrime(int num) {

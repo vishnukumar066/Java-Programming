@@ -8,6 +8,7 @@ public class P35_Reverse_Of_Number {
         int num = input.nextInt();
         int reverse = reverse(num);
         System.out.println("Reverse of your number is " + reverse);
+        input.close();
     }
 
     public static int reverse(int num) {

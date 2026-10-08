@@ -10,6 +10,7 @@ public class P33_GCD {
         int second = input.nextInt();
         int gcd = gcd(first, second);
         System.out.println("GCD of the numbers is: " + gcd);
+        input.close();
     }
 
     public static int gcd(int num1, int num2) {

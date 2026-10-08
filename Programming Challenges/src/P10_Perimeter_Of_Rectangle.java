@@ -12,5 +12,6 @@ public class P10_Perimeter_Of_Rectangle {
 
         double perimeter = a + b + c + d;
         System.out.println("Perimeter of your rectangle is: " + perimeter + "cm");
+        input.close();
     }
 }

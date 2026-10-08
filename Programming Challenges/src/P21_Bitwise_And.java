@@ -11,6 +11,6 @@ public class P21_Bitwise_And {
 
         int result = first & second;
         System.out.println("Result is: " + result);
+        input.close();
     }
 }
-

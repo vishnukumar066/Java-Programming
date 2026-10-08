@@ -9,5 +9,6 @@ public class P26_Right_Shift {
 
         int result = num >> 1;
         System.out.println("Your result is: " + result);
+        input.close();
     }
 }

@@ -14,5 +14,6 @@ public class P15_Positive_Negative_zero {
         } else {
             System.out.println("Your number is negative");
         }
+        input.close();
     }
 }

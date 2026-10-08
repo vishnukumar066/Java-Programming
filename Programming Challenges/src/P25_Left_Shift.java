@@ -9,5 +9,6 @@ public class P25_Left_Shift {
 
         int result = num << 4;
         System.out.println("Your result is: " + result);
+        input.close();
     }
 }

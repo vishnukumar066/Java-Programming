@@ -8,5 +8,6 @@ public class P14_Fahrenheit_To_Celsius {
         float fah = input.nextFloat();
         float cel = (fah - 32) * 5.0f / 9.0f;
         System.out.println("Your temperature is: " + cel + "C");
+        input.close();
     }
 }

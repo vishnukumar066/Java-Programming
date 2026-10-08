@@ -8,6 +8,7 @@ public class P29_Odd_Sum {
         int num = input.nextInt();
         int sum = oddSum(num);
         System.out.println("OddSum till " + num + " is: " + sum);
+        input.close();
     }
 
     public static int oddSum(int num) {

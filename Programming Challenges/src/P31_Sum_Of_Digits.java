@@ -8,6 +8,7 @@ public class P31_Sum_Of_Digits {
         int num = input.nextInt();
         int sum = sumOfDigits(num);
         System.out.println("Sum of Digits is: " + sum);
+        input.close();
     }
 
     public static int sumOfDigits(int num) {
