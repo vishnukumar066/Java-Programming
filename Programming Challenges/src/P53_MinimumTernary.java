@@ -12,6 +12,7 @@ class P53_MinimumTernary {
         int min = ternary.min(num1, num2);
         System.out.println("Minimum number is: " + min);
         input.close();
+
     }
 
     public int min(int num1, int num2) {
